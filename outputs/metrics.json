@@ -1,0 +1,25 @@
+{
+  "taping/val": {
+    "miou": 0.25812431487152826,
+    "dice": 0.37168580827448194,
+    "n": 202
+  },
+  "crack/val": {
+    "miou": 0.5436967762833786,
+    "dice": 0.6884321590143196,
+    "n": 1074
+  },
+  "overall": {
+    "miou": 0.4009105455774534,
+    "dice": 0.5300589836444007
+  },
+  "meta": {
+    "seed": 42,
+    "model": "CIDAS/clipseg-rd64-refined",
+    "epochs_run": 30,
+    "best_val_loss": 0.226862,
+    "train_time_min": 44.78,
+    "batch_size": 8,
+    "lr": 5e-05
+  }
+}
