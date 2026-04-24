@@ -81,17 +81,14 @@ The model was evaluated on the held-out validation set (`n=1,276`) using Mean In
 ---
 
 ## 🖼️ Visual Examples
-*(Original Image | Ground Truth Mask | Model Prediction)*
-
 ![Visual Example 1 - Crack](outputs/visuals/examples.png)
-> **Prompt:** "segment crack"
+
 
 ![Visual Example 2 - Drywall Seam](outputs/visuals/examples.png)
-> **Prompt:** "segment taping area"
 
-*(Note: Replace the image paths above with your actual saved visual panel paths)*
+
 
 ---
 
 ## ⚠️ Brief Failure Notes
-The primary bottleneck remains the **Drywall (Taping Area)** segmentation. While the refined ground truth masks are pixel-perfect thin lines, the `clipseg-rd64-refined` model utilizes a coarse internal spatial resolution (e.g., a 64x64
+The primary bottleneck remains the **Drywall (Taping Area)** segmentation. While the refined ground truth masks are pixel-perfect thin lines, the `clipseg-rd64-refined` model utilizes a coarse internal spatial resolution 
